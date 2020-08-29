@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "About_us";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/Content/About_us.css">
+
+</head>
+
+<body>
+    @{
+        Html.RenderPartial("Header");
+    }
+
+    <section class="about">
+        <h1 class="team text-center">Our Team</h1>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="rounded-circle w-50" src="~/Content/images/about-us/tasin.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title mt-3 mb-3">Tashfiq Ahmed</h5>
+                        <p class="card-text text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Totam repellat
+                            cupiditate ullam saepe cum iusto maxime repudiandae iste ipsam esse!
+                        </p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center align-items-center">
+                        <div class="social fb mr-1 ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                        </div>
+                        <div class="social insta mr-1 ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                        <div class="social twitter mr-1 ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+                        <div class="social linked-in mr-1 ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-linkedin-in"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="rounded-circle w-50" src="~/Content/images/about-us/jamy.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title mt-3 mb-3">Hasanath Jamy</h5>
+                        <p class="card-text text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ipsa, quaerat!
+                            Perferendis labore est numquam. Mollitia officiis aut quia reiciendis doloribus!
+                        </p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center align-items-center">
+                        <div class="social fb mr-1 ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                        </div>
+                        <div class="social insta mr-1 ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                        <div class="social twitter mr-1 ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+                        <div class="social linked-in ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-linkedin-in"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="rounded-circle w-50" src="~/Content/images/about-us/asif.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title mt-3 mb-3">Rezwan Ahmed</h5>
+                        <p class="card-text text-secondary">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Nulla eligendi
+                            commodi neque odio ab dicta consequuntur quibusdam officiis quae iste.
+                        </p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center align-items-center">
+                        <div class="social fb mr-1 ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                        </div>
+                        <div class="social insta ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                        <div class="social twitter ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+                        <div class="social linked-in ml-1 d-flex justify-content-center align-items-center">
+                            <a href="#" class="fab fa-linkedin-in"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @{
+        Html.RenderPartial("Footer");
+    }
+</body>
+
+</html>
+

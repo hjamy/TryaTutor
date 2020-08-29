@@ -1,0 +1,78 @@
+﻿.register {
+    margin-top: 100px;
+}
+
+    .register h2 {
+        font-family: 'Oswald', sans-serif;
+    }
+
+.register-area {
+    margin: 50px 200px;
+    padding: 20px 40px;
+    border: 1px solid gray;
+    height: 570px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Roboto" !important;
+}
+
+.register-button {
+    background-color: rgb(0, 0, 71);
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    float: right;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+    .register-button:hover {
+        text-decoration: none;
+        background-color: rgb(1, 1, 49);
+        color: white;
+    }
+
+.student-register-form {
+    padding-top: 10px;
+}
+
+.form-label {
+    font-size: 1em !important;
+    color: #aaa !important;
+    display: block !important;
+    opacity: 1 !important;
+    transform: translateY(-2em) !important;
+    transform-origin: 0 0 !important;
+    transition: all .3s !important;
+}
+
+.form-control {
+    box-shadow: none !important;
+    background-color: rgba(0, 0, 0, .02) !important;
+    border-radius: 0px !important;
+    border-color: rgb(160, 160, 160) !important;
+    border-style: none none solid none !important;
+    width: 100% !important;
+    transition: all 0.5s !important;
+    padding: 5px !important;
+    background-color: transparent !important;
+}
+
+    .form-control::placeholder {
+        color: transparent !important;
+    }
+
+    .form-control:focus {
+        box-shadow: none !important;
+        outline: none !important;
+        border-color: rgb(132, 0, 255) !important;
+    }
+
+        .form-control:focus + .form-label,
+        .form-control:not(:placeholder-shown) + .form-label {
+            transform: translateY(-3em) scale(0.8) !important;
+        }
+
+    .form-control:focus-within {
+        transform: scale(1.05, 1.05) !important;
+    }

@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "tutor_login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/Content/tutor_login.css">
+</head>
+
+<body>
+    @{
+        Html.RenderPartial("Header");
+    }
+
+    <div class="container login-area">
+        <h2>Tutor Login</h2>
+        <div class="submit-area">
+            <form>
+                <div class="form-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" class="form-control" placeholder="E-Mail">
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <br>
+                @*<a href="@Url.Action("Index", "Home")">Home</a>*@
+                <a class="login" href="@Url.Action("Tutor", "Home")"><i class="fas fa-sign-in-alt pr-2"></i>Login</a>
+                <!-- <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt pr-2"></i>Login</button> -->
+            </form>
+        </div>
+    </div>
+    @{
+        Html.RenderPartial("Footer");
+    }
+</body>
+
+</html>
+
