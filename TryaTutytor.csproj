@@ -138,6 +138,7 @@
     <Content Include="Content\images\about-us\jamy.jpg" />
     <Content Include="Content\images\about-us\tasin.jpg" />
     <Content Include="Content\images\background\profile-background.png" />
+    <Content Include="Content\images\background\student-profile-bg .png" />
     <Content Include="Content\images\contact-us\Contact_bg.jpg" />
     <Content Include="Content\images\features\feature1.png" />
     <Content Include="Content\images\features\feature2.png" />
@@ -163,7 +164,9 @@
     <Content Include="Content\images\testimonial\asif.jpg" />
     <Content Include="Content\images\testimonial\jamy.jpg" />
     <Content Include="Content\images\testimonial\tasin.jpg" />
-    <Content Include="Content\js\tutor.js" />
+    <Content Include="Content\js\Student.js" />
+    <Content Include="Content\js\Tutor.js" />
+    <Content Include="Content\Student.css" />
     <Content Include="Content\Student_login.css" />
     <Content Include="Content\Student_register.css" />
     <Content Include="Content\Style.css" />
@@ -210,6 +213,7 @@
     <Content Include="Views\Home\About_us.cshtml" />
     <Content Include="Views\Home\Tutor.cshtml" />
     <Content Include="Views\Home\Contact_us.cshtml" />
+    <Content Include="Views\Home\Student.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

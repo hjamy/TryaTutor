@@ -53,7 +53,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th class="job-serial" scope="row">1</th>
+                                    <th id="job-serial-id" class="job-serial" scope="row">1</th>
                                     <td>Khilgaon</td>
                                     <td>Math</td>
                                     <td>৳5000</td>
@@ -131,7 +131,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th class="invitation-serial" scope="row">1</th>
+                                    <th id="invitation-serial-id" class="invitation-serial" scope="row">1</th>
                                     <td>Khilgaon</td>
                                     <td>Math</td>
                                     <td>৳5000</td>
@@ -195,7 +195,9 @@
                 <div class="row">
                     <div class="col-5">
                         <ul class="list-group">
-                            <li class="list-group-item employer-individual">Cras justo odio</li>
+                            <li id="employer-individual-id" class="list-group-item employer-individual">
+                                Cras justo odio
+                            </li>
                             <li class="list-group-item employer-individual">Dapibus ac facilisis in</li>
                             <li class="list-group-item employer-individual">Morbi leo risus</li>
                             <li class="list-group-item employer-individual">Porta ac consectetur ac</li>
@@ -253,7 +255,7 @@
     @{
         Html.RenderPartial("Footer");
     }
-    <script src="~/Content/js/tutor.js"></script>
+    <script src="~/Content/js/Tutor.js"></script>
 </body>
 
 </html>
