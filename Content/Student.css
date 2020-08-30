@@ -175,12 +175,25 @@
     /* background-color: lightgreen; */
 }
 
+.type-1-notification .upper-portion p {
+    background-color: #2d9efc;
+    color: white;
+    border-radius: 5px;
+}
+
+.type-2-notification .upper-portion p {
+    background-color: #038e56;
+    color: white;
+    border-radius: 5px;
+}
+
 .round-shape-type-1 {
     width: 30px;
     height: 30px;
     background-color: #fadadb;
     color: #ef8f90;
     border-radius: 50%;
+    border: 1px solid #fac5c6;
 }
 
 .round-shape-type-2 {
@@ -189,6 +202,7 @@
     background-color: #e0edfe;
     color: #88a8f5;
     border-radius: 50%;
+    border: 1px solid #c2dbfd;
 }
 
 .lower-portion span {
@@ -230,13 +244,14 @@
     }
 
 .card {
-    background-image: url("../images/background/student-profile-bg .png");
+    /*background-image: url("../images/background/student-profile-bg.png");*/
+    background-image: url("images/background/student-profile-bg.png");
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left;
     width: 83%;
     margin: auto;
-    border: none;
+    border: none !important;
     box-shadow: 3px 3px 5px 2px gray;
 }
 
@@ -262,8 +277,8 @@
 }
 
 .card-footer {
-    border: none;
-    background-color: rgb(43, 4, 88);
+    border: none !important;
+    background-color: rgb(43, 4, 88) !important;
 }
 
 .card span {

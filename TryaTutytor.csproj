@@ -138,7 +138,7 @@
     <Content Include="Content\images\about-us\jamy.jpg" />
     <Content Include="Content\images\about-us\tasin.jpg" />
     <Content Include="Content\images\background\profile-background.png" />
-    <Content Include="Content\images\background\student-profile-bg .png" />
+    <Content Include="Content\images\background\student-profile-bg.png" />
     <Content Include="Content\images\contact-us\Contact_bg.jpg" />
     <Content Include="Content\images\features\feature1.png" />
     <Content Include="Content\images\features\feature2.png" />
