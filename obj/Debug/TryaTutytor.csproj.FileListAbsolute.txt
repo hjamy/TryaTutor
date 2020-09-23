@@ -77,3 +77,16 @@ D:\3.2\Lab\SD\Final Project\TryaTutytor\obj\Debug\TryaTutytor.csproj.CoreCompile
 D:\3.2\Lab\SD\Final Project\TryaTutytor\obj\Debug\TryaTutytor.csproj.CopyComplete
 D:\3.2\Lab\SD\Final Project\TryaTutytor\obj\Debug\TryaTutytor.dll
 D:\3.2\Lab\SD\Final Project\TryaTutytor\obj\Debug\TryaTutytor.pdb
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\MySql.Data.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\Google.Protobuf.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\Zstandard.Net.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\K4os.Compression.LZ4.Streams.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\BouncyCastle.Crypto.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\Ubiety.Dns.Core.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\Renci.SshNet.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\System.Buffers.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\K4os.Compression.LZ4.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\K4os.Hash.xxHash.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\System.Memory.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\3.2\Lab\SD\Final Project\TryaTutytor\bin\MySql.Data.xml

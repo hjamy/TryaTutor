@@ -12,20 +12,32 @@
     border-bottom: 1px solid #ccc;
 }
 
-    .btn-box button {
-        background: transparent;
-        border: none !important;
-        outline: none !important;
-        cursor: pointer;
-        padding: 14px 16px;
-        margin-right: 50px;
-        font-size: 20px;
-        font-weight: bold;
-    }
+.btn-box button {
+    background: transparent;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
-        .btn-box button:hover {
-            color: #04BFCD;
-        }
+.btn-box button:hover {
+    color: #04BFCD;
+}
+
+
+thead tr {
+    background-color: rgb(3, 172, 172);
+    color: white;
+}
+
+table tbody tr {
+    border: 2px solid grey;
+    border-style: solid none solid none
+}
+
 
 tr:hover {
     background-color: rgb(49, 185, 185);
@@ -34,6 +46,12 @@ tr:hover {
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
     background-color: rgb(199, 230, 255);
+}
+
+.table {
+    border-color: gray;
+    border-style: none solid solid solid;
+    font-family: "Roboto";
 }
 
 .details h4.title {
@@ -121,6 +139,10 @@ tr:hover {
 .table-hover tbody tr:hover .job-serial,
 .table-hover tbody tr:hover .invitation-serial {
     cursor: pointer;
+}
+
+.employer-list {
+    font-family: "Roboto";
 }
 
 .employer-list ul li:hover {
